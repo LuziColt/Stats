@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="stats.js"></script>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="stats.css">
+
+  <title>BZO-Batch-Statistiken</title>
+</head>
+
+<body>
+<div><span>Statistiken auswählen: </span><input type="file" multiple onchange="parse(this)"></div> <br>
+
+<button id="refreshpage" onmousedown="refreshpage()" >Back</button> <br> <br>
+
+
+<div class="display" id="showentries">
+  <select name="entries" id = "selectedentry">
+    <option>10</option>
+    <option>20</option>
+    <option>50</option>
+    <option>100</option>
+  </select>
+
+  <header>Einträge anzeigen</header>
+
+</div> <br> <br>
+
+<div class="tablebuttons">
+<button onClick="createsynctable()">Sync</button>
+<button onClick="createdeletetable()()">Delete</button>
+</div>
+
+<div id="table_div"></div>
+
+<div id="table_delete"></div>
+
+
+
+
+</body>
+</html>
