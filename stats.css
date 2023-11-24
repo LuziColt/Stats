@@ -1,0 +1,44 @@
+body {
+  background: url('Logo.png') center top fixed no-repeat;
+  background-size: 2000px 100px;
+  background-color: #AADBF6;
+}
+
+
+.display
+{
+display : inline-flex;
+}
+
+
+.tableside
+{
+float: right;
+display : inline-flex;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+#refreshpage
+{
+  border: dotted;
+  padding: 5px 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.tablebuttons
+{
+  display: inline-flex;
+  border: dotted;
+  gap: 20px;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: bpld;
+  font-size: 16px;
+}
